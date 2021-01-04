@@ -28,8 +28,6 @@ const Component = () => {
             let url;
             try {
               url = data.url;
-              if (data.is_video)
-                console.log(data.secure_media.reddit_video.scrubber_media_url);
             } catch {
               url = data.thumbnail;
             }
